@@ -1,0 +1,450 @@
+	.navbar-inverse{
+			background: #2196f3;
+			border-color:#2196f3;
+			box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	}
+	.navbar-inverse .navbar-nav>li>a{
+		color:#fff;
+		font-size: 16px;
+		font-family: 微软雅黑;
+	}
+	.navbar-inverse .navbar-nav>li:hover{
+		background:#ff6600;
+	}
+	
+	.row{
+		margin-top: 20px;
+	}
+
+  .snav-margin{
+    height:50px;
+    margin-top: 10px;
+    background:url("../images/snav.png");
+  }
+  
+  .snav-lfont{
+    width:120px;
+    height:50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    color:#fff;
+    float: left;
+  }
+  .snav-rfont{
+    width:50px;
+    height:50px;
+    font-size:14px;
+    text-align:center;
+    line-height: 50px;
+    color:#333;
+    float: right;
+  }
+
+  .textoverflow{
+    width:237px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  .textoverflow ~ p{
+    color:red;
+  }
+  
+/*--------------------------------------------------登录注册-------------------------------------------------------------*/
+.breadcrumb{
+  margin-top: 10px;
+}
+.register-box{
+  width:50%;
+  margin:0 auto;
+}
+.register{
+  width:100%;
+  margin-top:-8px;
+  border-radius:5px;
+  border: 1px solid #d6e9c6;
+}
+
+.register-font{
+  width: 100%;
+  height:50px;
+  text-align: center;
+  line-height: 50px;
+  color:#3c763d;
+  background:#d6e9c6;
+}
+
+.register-form{
+  margin-top: 20px;
+}
+
+
+.login-box{
+  width:50%;
+  margin:0 auto;
+}
+.login{
+  width:100%;
+  margin-top:-8px;
+  border-radius:5px;
+  border: 1px solid #d6e9c6;
+}
+
+.login-font{
+  width: 100%;
+  height:50px;
+  text-align: center;
+  line-height: 50px;
+  color:#3c763d;
+  background:#d6e9c6;
+}
+
+.login-form{
+  margin-top: 20px;
+}
+
+.form-control{
+  width:90%;
+}
+
+/*--------------------------------------------------商品详情-------------------------------------------------------------*/
+.good-left{
+  width:44%;
+  height:60%;
+  overflow: hidden;
+  float: left;
+}
+
+.good-border{
+  overflow: hidden;
+}
+.good-big{
+  width: 400px;
+  height: 400px;
+  border: 1px solid #eeeeee;
+  position: absolute;
+  top: 118px;
+  left: 608px;
+  overflow: hidden;
+  display: none;
+}
+.good-small ul{
+  list-style:none;
+  margin-left: -50px;
+}
+
+.good-small ul li {
+  width:70px;
+  height:70px;
+  float: left;
+  margin-left: 10px;
+  border:1px solid #ddd;
+  overflow: hidden;
+}
+
+.good-small ul li div{
+  text-align: center;
+  line-height: 70px;
+}
+
+.good-small ul li img{
+  width:70px;
+  height:70px;  
+}
+
+.good-small ul li:hover{
+  border:1px solid #51adf6;
+}
+
+.good-right{
+  width:54%;
+  height:50%;
+  float: right;
+  /*margin-left: 20px;*/
+}
+
+.good-right caption{
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.good-td{
+  font-size: 15px;
+  font-weight:bold;
+}
+
+.good-price{
+  color:#ff6600;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.good-num{
+  width:30px;
+  text-align: center;
+
+}
+
+.sub-num{
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+}
+
+/*--------------------------------------------------购物车-------------------------------------------------------------*/
+.order-table th{
+  text-align: center;
+}
+.order-table td{
+  line-height: 70px !important;
+  text-align: center;
+}
+
+.order-img img{
+  width:70px;
+  height:70px;
+}
+
+.cart-num{
+  width:50px;
+  height:20px;
+  text-align: center;
+
+}
+
+.cart-sub{
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+}
+
+.order-price{
+  color:#ff6600;
+  font-weight: bold;
+}
+
+.order-pay{
+  width:100%;
+  height:80px;
+  border-radius: 5px;
+  background:#dff0d8;
+  border:1px solid #d6e9c6;
+}
+.order-pay span{
+  color:#ff6600;
+}
+.order-payleft{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 80px;
+  padding-left: 20px;
+  float: left;
+}
+
+.order-payright{
+  float: right;
+  line-height: 80px;
+  padding-right: 20px;
+}
+.order-payright button{
+  width:100px;
+  height:50px;
+}
+
+/*--------------------------------------------------结算页面-------------------------------------------------------------*/
+
+.address-list{
+  width:100%;
+  /*height:150px;*/
+  border-radius: 5px;
+  border: 1px solid #d6e9c6;
+}
+.address-bg{
+  width:100%;
+  height:50px;
+  color:#3c763d;
+  background:#dff0d8;
+  line-height: 50px;
+  padding-left: 20px;
+}
+.address-add button{
+  width:100px;
+  height:50px;
+  margin: 10px;
+}
+
+.address-display{
+  width:98%;
+  margin-left: 10px;
+}
+.address-panel{
+  width:600px;
+  margin:0 auto;
+}
+
+.address-panel select{
+  width:142px;
+  float:left;
+  margin-left: 10px;
+}
+
+.address-panel2{
+  width:568px;
+  margin:0 auto;
+}
+/*--------------------------------------------------支付页面-------------------------------------------------------------*/
+.pay-list{
+  width:100%;
+  /*height:150px;*/
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #d6e9c6;
+}
+.pay-bg{
+  width:100%;
+  height:50px;
+  color:#3c763d;
+  background:#dff0d8;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+.pay-add{
+  padding:20px;
+}
+
+.pay-add span{
+  font-weight:bold;
+  float: left;
+}
+.pay-pay{
+  width:100%;
+  height:80px;
+  border-radius: 5px;
+  background:#dff0d8;
+  border:1px solid #d6e9c6;
+}
+.pay-left{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 80px;
+  padding-left: 20px;
+  float: left;
+}
+
+.pay-left strong{
+  color:#ff6600;
+}
+.pay-left span{
+  float: none;
+}
+
+/*--------------------------------------------------支付成功页面----------------------------------------------------------*/
+
+.paysucceed{
+  width:100%;
+  /*height:150px;*/
+  /*margin-top: 5px;*/
+  border-radius: 5px;
+  border: 1px solid #d6e9c6;
+}
+.paysucceed-bg{
+  width:100%;
+  height:50px;
+  color:#3c763d;
+  background:#dff0d8;
+  line-height: 50px;
+  padding-left: 20px;
+}
+.paysucceed-bluebg{
+  width:98%;
+  height:50px;
+  margin:10px;
+  background:#d9edf7;
+  border-radius: 5px;
+  border: 1px solid #bce8f1;
+}
+
+.paysucceed-left{
+  line-height: 50px;
+  color:#31708f;
+  padding-left: 10px;
+  float: left;
+}
+.paysucceed-right{
+  line-height: 50px;
+  color:#ff6600;
+  padding-right: 10px;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .bq-img{
+    margin-top: 10px;
+  }
+
+  .links{
+    margin-top: 15px;
+  }
+
+  .links-font{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .links ul {
+    list-style: none;
+    margin-top: -15px;
+    margin-left:40px;
+  }
+
+  .links ul li{
+    float: left;
+    padding-left: 10px;
+  }
+
+  .copyright{
+    width:100%;
+    height:50px;
+    background:#0088cc;
+  }
+  .copyright-font{
+    text-align: center;
+    line-height: 50px;
+    color:#fff;
+  }
+  .snav-green{
+    height:50px;
+    margin-top: 10px;
+    background:url("../images/snav - green.png");
+  }
+
+/*放大镜*/
+#show{
+      width: 400px;
+      height: 300px;
+      /*overflow: scroll;*/
+      overflow: hidden;
+      position: absolute;
+      left:430px;
+      top:10px;
+    }
+

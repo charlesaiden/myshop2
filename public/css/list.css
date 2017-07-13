@@ -1,0 +1,30 @@
+
+	span.tit{
+		font-size: 16px;
+		font-weight: bold;
+		color: #666;
+		/*line-height: 50px;*/
+	}
+	
+	p.tit{
+	    border-bottom: 1px solid #ddd;
+	    line-height: 30px;
+	    font-size: 14px;
+	    font-weight: bold;
+	}
+
+	.item{
+		padding: 5px 8px;
+		margin-right: 8px;
+		/*cursor: pointer;*/
+		font-size: 16px;
+		/*line-height: 50px;*/
+	}
+	
+	
+	.table-lineheight td{
+		height:70px;
+		line-height: 70px !important;
+	}
+
+
